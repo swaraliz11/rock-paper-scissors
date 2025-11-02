@@ -1,4 +1,4 @@
 function getComputerChoice() {
     let max = 3;
-    let computerChoice = Math.floor(Math.random() * max);
+    let randomNumber = Math.floor(Math.random() * max);
 }
