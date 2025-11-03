@@ -13,3 +13,7 @@ function getComputerChoice() {
     }
     return computerChoice;
 }
+
+function getHumanChoice(choice) {
+    
+}
