@@ -14,6 +14,6 @@ function getComputerChoice() {
     return computerChoice;
 }
 
-function getHumanChoice(choice) {
+function getHumanChoice() {
     
 }
