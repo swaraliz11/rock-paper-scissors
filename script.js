@@ -23,5 +23,5 @@ function getHumanChoice() {
 }
 
 function playRound(humanChoice, computerChoice) {
-    
+    humanChoice = humanChoice.toLowerCase();
 }
