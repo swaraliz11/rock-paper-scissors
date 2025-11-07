@@ -1,3 +1,6 @@
+let humanScore = 0;
+let computerScore = 0;
+
 function getComputerChoice() {
     let max = 3;
     let randomNumber = Math.floor(Math.random() * max);
