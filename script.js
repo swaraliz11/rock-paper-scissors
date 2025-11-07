@@ -21,3 +21,7 @@ function getHumanChoice() {
     let choice = prompt("Rock, Paper or Scissors? ");
     return choice;
 }
+
+function playRound(humanChoice, computerChoice) {
+    
+}
