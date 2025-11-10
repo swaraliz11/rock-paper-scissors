@@ -58,3 +58,7 @@ function playRound(humanChoice, computerChoice) {
         console.log("It's a draw!");
     }
 }
+
+function playGame() {
+    
+}
