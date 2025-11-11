@@ -57,11 +57,17 @@ function playGame() {
         else {
             console.log("It's a draw!");
         }
+        if (humanScore > computerScore) {
+            return humanScore;
+        }
+        else {
+            return computerScore;
+        }
     }
     for (i = 0; i < 5; i++) {
         let humanSelection = getHumanChoice();
         let computerSelection = getComputerChoice();
-        playRound(humanSelection, computerSelection);
+        let score = playRound(humanSelection, computerSelection);
     }
 }
 
