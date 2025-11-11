@@ -63,10 +63,6 @@ function playGame() {
         let computerSelection = getComputerChoice();
         playRound(humanSelection, computerSelection);
     }
-    if (computerScore > humanScore) {
-        console.log("Computer won!");
-    }
-    else {
-        console.log("You won!");
-    }
 }
+
+playGame();
