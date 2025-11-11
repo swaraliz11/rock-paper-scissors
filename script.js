@@ -70,6 +70,12 @@ function playGame() {
         let computerSelection = getComputerChoice();
         number = playRound(humanSelection, computerSelection);
     }
+    if (number == 1) {
+        console.log("You won!");
+    }
+    else {
+        console.log("Computer won!");
+    }
 }
 
 playGame();
