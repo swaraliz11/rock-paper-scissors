@@ -67,7 +67,7 @@ function playGame() {
     for (i = 0; i < 5; i++) {
         let humanSelection = getHumanChoice();
         let computerSelection = getComputerChoice();
-        let score = playRound(humanSelection, computerSelection);
+        let number = playRound(humanSelection, computerSelection);
     }
 }
 
