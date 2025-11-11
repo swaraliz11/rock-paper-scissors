@@ -64,10 +64,11 @@ function playGame() {
             return 2;
         }
     }
+    let number = 0;
     for (i = 0; i < 5; i++) {
         let humanSelection = getHumanChoice();
         let computerSelection = getComputerChoice();
-        let number = playRound(humanSelection, computerSelection);
+        number = playRound(humanSelection, computerSelection);
     }
 }
 
