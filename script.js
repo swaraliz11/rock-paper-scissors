@@ -58,10 +58,10 @@ function playGame() {
             console.log("It's a draw!");
         }
         if (humanScore > computerScore) {
-            return humanScore;
+            return 1;
         }
         else {
-            return computerScore;
+            return 2;
         }
     }
     for (i = 0; i < 5; i++) {
