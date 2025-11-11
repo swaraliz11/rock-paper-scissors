@@ -58,4 +58,15 @@ function playGame() {
             console.log("It's a draw!");
         }
     }
+    for (i = 0; i < 5; i++) {
+        let humanSelection = getHumanChoice();
+        let computerSelection = getComputerChoice();
+        playRound(humanSelection, computerSelection);
+    }
+    if (computerScore > humanScore) {
+        console.log("Computer won!");
+    }
+    else {
+        console.log("You won!");
+    }
 }
