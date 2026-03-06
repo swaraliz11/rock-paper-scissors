@@ -65,11 +65,9 @@ function playGame() {
         }
     }
     let number = 0;
-    for (i = 0; i < 5; i++) {
-        let humanSelection = getHumanChoice();
-        let computerSelection = getComputerChoice();
-        number = playRound(humanSelection, computerSelection);
-    }
+    let humanSelection = getHumanChoice();
+    let computerSelection = getComputerChoice();
+    number = playRound(humanSelection, computerSelection);
     if (number == 1) {
         console.log("You won!");
     }
