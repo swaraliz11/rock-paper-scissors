@@ -14,6 +14,9 @@ function getComputerChoice() {
     return computerChoice;
 } 
 
+function getHumanChoice() {
+    
+}
 
 function playGame() {
     let humanScore = 0;
