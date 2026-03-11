@@ -18,7 +18,6 @@ function getHumanChoice() {
     
 }
 
-     
 function playRound(humanChoice, computerChoice) {
     humanChoice = humanChoice.toLowerCase();
     if ((humanChoice === "rock") && (computerChoice === "paper")) {
