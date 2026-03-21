@@ -38,6 +38,7 @@ function getHumanChoice() {
 
 function playRound(humanChoice, computerChoice) {
     let computerScore = 0, humanScore = 0;
+    const div = document.querySelector("div");
 }
 let number = 0;
 let humanSelection = getHumanChoice();
