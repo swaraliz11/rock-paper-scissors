@@ -40,15 +40,3 @@ function playRound(humanChoice, computerChoice) {
     let computerScore = 0, humanScore = 0;
     const div = document.querySelector("div");
 }
-let number = 0;
-let humanSelection = getHumanChoice();
-let computerSelection = getComputerChoice();
-number = playRound(humanSelection, computerSelection);
-if (number == 1) {
-    console.log("You won!");
-}
-else {
-    console.log("Computer won!");
-}
-
-playRound(); 
