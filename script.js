@@ -36,7 +36,12 @@ function getHumanChoice() {
     });
 }
 
+let computerScore = 0;
+let humanScore = 0;
+
 function playRound(humanChoice, computerChoice) {
-    let computerScore = 0, humanScore = 0;
-    const div = document.querySelector("div");
+    let div = document.querySelector("div");
 }
+
+
+
