@@ -31,4 +31,11 @@ function playRound(humanChoice) {
     }
 
     div.textContent = `Player: ${humanScore}, Computer: ${computerScore}`;
+
+    if (humanScore === 5) {
+        div.textContent = "Winner: Player";
+    }
+    else if (computerScore === 5) {
+        div.textContent = "Winner: Computer";
+    }
 }
