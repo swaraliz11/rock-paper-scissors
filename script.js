@@ -30,5 +30,5 @@ function playRound(humanChoice) {
                 humanScore++;
     }
 
-    div.textContent = `Human: ${humanScore}, Computer: ${computerScore}`;
+    div.textContent = `Player: ${humanScore}, Computer: ${computerScore}`;
 }
