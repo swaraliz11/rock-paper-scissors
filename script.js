@@ -43,3 +43,7 @@ function playRound(humanChoice) {
 const rock = document.getElementById("rock");
 const paper = document.getElementById("paper");
 const scissors = document.getElementById("scissors");
+
+rock.addEventListener('click', () => playRound('rock'));
+paper.addEventListener('click', () => playRound('paper'));
+scissors.addEventListener('click', () => playRound('scissors'));
