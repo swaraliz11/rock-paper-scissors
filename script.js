@@ -29,4 +29,6 @@ function playRound(humanChoice) {
             (humanChoice === "scissors" && computerChoice === "paper")) {
                 humanScore++;
     }
+
+    div.textContent = `Human: ${humanScore}, Computer: ${computerScore}`;
 }
