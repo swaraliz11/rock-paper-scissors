@@ -17,6 +17,6 @@ function getComputerChoice() {
 let computerScore = 0;
 let humanScore = 0;
 
-function playRound(humanChoice, computerChoice) {
+function playRound(humanChoice) {
     let div = document.querySelector("div");
 }
