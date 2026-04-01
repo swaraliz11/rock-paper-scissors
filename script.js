@@ -20,4 +20,13 @@ let humanScore = 0;
 function playRound(humanChoice) {
     let div = document.querySelector("div");
     let computerChoice = getComputerChoice();
+
+    if ((humanChoice === "rock" && computerChoice === "paper") || (humanChoice === "scissors" && computerChoice === "rock") ||
+        (humanChoice === "paper" && computerChoice === "scissors")) {
+            computerScore++;
+    }
+    else if ((humanChoice === "paper" && computerChoice === "rock") || (humanChoice === "rock" && computerChoice === "scissors") ||
+            (humanChoice === "scissors" && computerChoice === "paper")) {
+                humanScore++;
+    }
 }
